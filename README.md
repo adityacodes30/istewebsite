@@ -1,6 +1,6 @@
 ## Flow of events page 
 
-![imgofss]('ss.png')
+![imgofss](ss.png)
 
 EventSingular.js will contain the code for part in red <br>
 TopComponent.js will contain the code for part in Green<br>
