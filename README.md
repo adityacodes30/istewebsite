@@ -1,6 +1,6 @@
 ## Flow of events page 
 
-![image]('Screenshot 2023-07-05 at 1.10.04 AM.png')
+![imgofss]('ss.png')
 
 EventSingular.js will contain the code for part in red <br>
 TopComponent.js will contain the code for part in Green<br>
