@@ -12,6 +12,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  background-color: #212529;
 }
 
 .swiper {
@@ -19,7 +20,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   height: 60vh;
-  background-color: #1b1917;
+  background-color: #212529;
 }
 
 .swiper-slide {
@@ -35,3 +36,10 @@ body {
   height: 50vh;
 }
 
+.Heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
