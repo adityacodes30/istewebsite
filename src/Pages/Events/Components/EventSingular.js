@@ -10,11 +10,15 @@ import "swiper/css/pagination";
 
 import "../Styles/EventSingular.css"
 
+
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function App(props) {
+    const images = props.image;
+    console.log(images);
     return (
+        
         <>
         <div>
             <h1 className="Heading">EVENTS</h1>
@@ -24,6 +28,7 @@ export default function App(props) {
                 grabCursor={true}
                 centeredSlides={true}
                 slidesPerView={"auto"}
+                spaceBetween={200} 
                 coverflowEffect={{
                     rotate: 50,
                     stretch: 0,
@@ -36,13 +41,13 @@ export default function App(props) {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    <img src={__dirname+images[2]}  alt=""/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    <img src={__dirname+images[1]} alt=""/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    <img src={__dirname+images[0]} alt=""/>
                 </SwiperSlide>
             </Swiper>
         </>
